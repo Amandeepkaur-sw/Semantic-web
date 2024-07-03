@@ -3,11 +3,11 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(to bottom,rgb(104, 194, 219),rgb(235, 87, 191));
+    background: linear-gradient(45deg, #ff7eb9, #ff65a3, #7afcff, #218cea);
 }
 
 header {
-    background: linear-gradient(to bottom, rgb(235, 87, 191), rgb(104, 194, 219));
+    background: linear-gradient(45deg,#218cea,  #c60fa8, #ff7eb9, #ff65a3,);
     text-align: center;
     padding: 20px;
 }
@@ -31,7 +31,7 @@ header p, header h2 {
 }
 
 nav {
-    background-color: #007bff;
+    background: linear-gradient(45deg, #ff7eb9, #ff65a3, #7afcff, #218cea);
     text-align: center;
     padding: 10px 0;
 }
