@@ -1,0 +1,125 @@
+.container{
+	width: 1170px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.container .header{
+	width: 1170px;
+	height: 200px;
+	background-color: red;
+}
+
+.container .contentrow1{
+	width: 1170px;
+	height: 200px;
+	background-color: yellow;
+	float: left;
+}
+
+.container .contentrow1 .content1{
+	width: 292.5px;
+	height: 200px;
+	background-color: yellow;
+	float: left;
+}
+.container .contentrow1 .content2{
+	width: 292.5px;
+	height: 200px;
+	background-color: rebeccapurple;
+	float: left;
+}
+.container .contentrow1 .content3{
+	width: 292.5px;
+	height: 200px;
+	background-color: yellow;
+	float: left;
+}
+.container .contentrow1 .content4{
+	width: 292.5px;
+	height: 200px;
+	background-color: hotpink;
+	float: left;
+}
+
+.container .contentrow2{
+	width: 1170px;
+	height: 200px;
+	background-color: orange;
+	float: left;
+}
+.container .contentrow2  .content5{
+	width: 292.5px;
+	height: 200px;
+	background-color: black;
+	float: left;
+}
+.container .contentrow2 .content6{
+	width: 292.5px;
+	height: 200px;
+	background-color: darkgreen;
+	float: left;
+}
+.container .contentrow2 .content7{
+	width: 585px;
+	height: 200px;
+	background-color:  lightcoral;
+	float: left;
+}
+
+.container .contentrow3{
+	width: 1170px;
+	height: 200px;
+	background-color: orange;
+	float: left;
+}
+.container .contentrow3  .content8{
+	width: 585px;
+	height: 200px;
+	background-color: orange;
+	float: left;
+}
+.container .contentrow3 .content9{
+	width: 292.5px;
+	height: 200px;
+	background-color: lightblue;
+	float: left;
+}
+.container .contentrow3 .content10{
+	width: 292.5px;
+	height: 200px;
+	background-color: hotpink;
+	float: left;
+}
+.container .contentrow4{
+	width: 1170px;
+	height: 200px;
+	background-color: orange;
+	float: left;
+}
+.container .contentrow4  .content11{
+	width: 292.5px;
+	height: 200px;
+	background-color: mediumpurple;
+	float: left;
+}
+.container .contentrow4 .content12{
+	width: 585px;
+	height: 200px;
+	background-color: blue;
+	float: left;
+}
+.container .contentrow4 .content13{
+	width: 292.5px;
+	height: 200px;
+	background-color: pink;
+	float: left;
+}
+
+.container .contentrow5
+{
+	width: 1170px;
+	height: 200px;
+	background-color: lightblue;
+	float: left;
+}
