@@ -21,13 +21,13 @@ header .logo {
 header h1 {
     margin: 10px 0 5px;
     font-size: 24px;
-    color: #fffbfb;
+    color: #0c0101;
 }
 
 header p, header h2 {
     margin: 5px 0;
     font-size: 16px;
-    color: #f9f7f7;
+    color: #140101;
 }
 
 nav {
@@ -37,8 +37,8 @@ nav {
 }
 
 nav button {
-    background-color: #f8f664;
-    border: none;
+    background-color: #ece624;
+    border: solid rgba(37, 164, 206, 0.849);
     color: rgb(252, 247, 247);
     padding: 10px 20px;
     margin: 5px;
@@ -62,7 +62,7 @@ main {
 
 .gallery h3 {
     font-size: 20px;
-    color: #f9f6f6;
+    color: #130101;
 }
 
 .gallery-image {
