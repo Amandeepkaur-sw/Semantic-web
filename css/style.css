@@ -3,11 +3,11 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(45deg, #ff7eb9, #ff65a3, #7afcff, #218cea);
+    background: linear-gradient(to right, #ed4264, #feb47b , #ff7e5f); 
 }
 
 header {
-    background: linear-gradient(45deg,#218cea,  #c60fa8, #ff7eb9, #ff65a3,);
+    background: linear-gradient(to right, #ed4264, #feb47b , #ff7e5f);
     text-align: center;
     padding: 20px;
 }
@@ -61,24 +61,25 @@ header p, header h2 {
 }
 
 nav {
-    background: linear-gradient(45deg, #ff7eb9, #ff65a3, #7afcff, #218cea);
+    background: linear-gradient(to right, #ed4264 , #feb47b , #ff7e5f);
+
     text-align: center;
     padding: 10px 0;
 }
 
 nav button {
-    background-color: #ece624;
-    border: solid rgb(141, 210, 237);
-    color: rgb(252, 247, 247);
+    background-color: #fef6f6;
+    border: solid rgb(235, 241, 243);
+    color: rgba(241, 58, 73, 0.881);
     padding: 10px 20px;
     margin: 5px;
     cursor: pointer;
-    border-radius: 50%;
+    border-radius: 60%;
     
 }
 
 nav button:hover {
-    background-color: #0a4c6d;
+    background-color: #ed4264;
 }
 
 main {
