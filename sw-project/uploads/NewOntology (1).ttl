@@ -1,0 +1,278 @@
+#################################################################
+###  Generated with the experimental alpha version of the TTL exporter of WebVOWL (version 1.1.7)  http://visualdataweb.de/webvowl/   ###
+#################################################################
+
+@prefix : 		<http://visualdataweb.org/newOntology/> .
+@prefix rdf: 		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd: 		<http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: 		<http://purl.org/dc/elements/1.1/> .
+@prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
+@prefix wot: 		<http://xmlns.com/wot/0.1/> .
+@prefix vs: 		<http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix foaf: 		<http://xmlns.com/foaf/0.1/> .
+@base 			<http://visualdataweb.org/newOntology/> .
+
+<http://visualdataweb.org/newOntology/> rdf:type owl:Ontology ;
+                                        dc:title "E-commerce ontology"@en;
+                                        dc:description "New ontology description"@en; 
+                                        dc:creator "Amandeep kaur" . 
+#################################################################
+
+###  Property Definitions (Number of Property) 42 ###
+#  --------------------------- Property 0------------------------- 
+:email rdf:type owl:DatatypeProperty ;
+       rdfs:label "email"@en; 
+       rdfs:domain :Customer;
+       rdfs:range rdfs:Literal . 
+#  --------------------------- Property 1------------------------- 
+:name rdf:type owl:DatatypeProperty ;
+      rdfs:label "name"@en; 
+      rdfs:domain :Customer;
+      rdfs:range rdfs:Literal . 
+#  --------------------------- Property 2------------------------- 
+:address rdf:type owl:DatatypeProperty ;
+         rdfs:label "address"@en; 
+         rdfs:domain :Customer;
+         rdfs:range rdfs:Literal . 
+#  --------------------------- Property 3------------------------- 
+:phone rdf:type owl:DatatypeProperty ;
+       rdfs:label "phone"@en; 
+       rdfs:domain :Customer;
+       rdfs:range rdfs:Literal . 
+#  --------------------------- Property 4------------------------- 
+:price rdf:type owl:DatatypeProperty ;
+       rdfs:label "price"@en; 
+       rdfs:domain :Smartphone;
+       rdfs:range rdfs:Literal . 
+#  --------------------------- Property 5------------------------- 
+:brand rdf:type owl:DatatypeProperty ;
+       rdfs:label "brand"@en; 
+       rdfs:domain :Smartphone;
+       rdfs:range rdfs:Literal . 
+#  --------------------------- Property 6------------------------- 
+:size rdf:type owl:DatatypeProperty ;
+      rdfs:label "size"@en; 
+      rdfs:domain :Clothes;
+      rdfs:range rdfs:Literal . 
+#  --------------------------- Property 7------------------------- 
+:brand rdf:type owl:DatatypeProperty ;
+       rdfs:label "brand"@en; 
+       rdfs:domain :Clothes;
+       rdfs:range rdfs:Literal . 
+#  --------------------------- Property 8------------------------- 
+:price rdf:type owl:DatatypeProperty ;
+       rdfs:label "price"@en; 
+       rdfs:domain :Clothes;
+       rdfs:range rdfs:Literal . 
+#  --------------------------- Property 9------------------------- 
+:type rdf:type owl:DatatypeProperty ;
+      rdfs:label "type"@en; 
+      rdfs:domain :Men;
+      rdfs:range rdfs:Literal . 
+#  --------------------------- Property 10------------------------- 
+:model rdf:type owl:DatatypeProperty ;
+       rdfs:label "model"@en; 
+       rdfs:domain :Watches;
+       rdfs:range rdfs:Literal . 
+#  --------------------------- Property 11------------------------- 
+:type rdf:type owl:ObjectProperty ;
+      rdfs:label "type"@en; 
+      rdfs:domain :Watches;
+      rdfs:range :Analog,digital . 
+#  --------------------------- Property 12------------------------- 
+:type rdf:type owl:DatatypeProperty ;
+      rdfs:label "type"@en; 
+      rdfs:domain :material;
+      rdfs:range rdfs:Literal . 
+#  --------------------------- Property 13------------------------- 
+:size rdf:type owl:DatatypeProperty ;
+      rdfs:label "size"@en; 
+      rdfs:domain :shoes;
+      rdfs:range rdfs:Literal . 
+#  --------------------------- Property 14------------------------- 
+:price rdf:type owl:DatatypeProperty ;
+       rdfs:label "price"@en; 
+       rdfs:domain :shoes;
+       rdfs:range rdfs:Literal . 
+#  --------------------------- Property 15------------------------- 
+:color rdf:type owl:ObjectProperty ;
+       rdfs:label "color"@en; 
+       rdfs:domain :shoes;
+       rdfs:range :color . 
+#  --------------------------- Property 16------------------------- 
+:brand rdf:type owl:DatatypeProperty ;
+       rdfs:label "brand"@en; 
+       rdfs:domain :shoes;
+       rdfs:range rdfs:Literal . 
+#  --------------------------- Property 17------------------------- 
+:type rdf:type owl:ObjectProperty ;
+      rdfs:label "type"@en; 
+      rdfs:domain :Watches;
+      rdfs:range :Class41 . 
+#  --------------------------- Property 18------------------------- 
+:buy rdf:type owl:ObjectProperty ;
+     rdfs:label "buy"@en; 
+     rdfs:domain :Customer;
+     rdfs:range :Product . 
+#  --------------------------- Property 19------------------------- 
+:name rdf:type owl:ObjectProperty ;
+      rdfs:label "name"@en; 
+      rdfs:domain :Product;
+      rdfs:range :Watches . 
+#  --------------------------- Property 20------------------------- 
+:name rdf:type owl:ObjectProperty ;
+      rdfs:label "name"@en; 
+      rdfs:domain :Product;
+      rdfs:range :Smartphone . 
+#  --------------------------- Property 21------------------------- 
+:name rdf:type owl:ObjectProperty ;
+      rdfs:label "name"@en; 
+      rdfs:domain :Product;
+      rdfs:range :Clothes . 
+#  --------------------------- Property 22------------------------- 
+:name rdf:type owl:ObjectProperty ;
+      rdfs:label "name"@en; 
+      rdfs:domain :Product;
+      rdfs:range :shoes . 
+#  --------------------------- Property 23------------------------- 
+:stock rdf:type owl:ObjectProperty ;
+       rdfs:label "stock"@en; 
+       rdfs:domain :Smartphone;
+       rdfs:range :XYZ . 
+#  --------------------------- Property 24------------------------- 
+:category rdf:type owl:ObjectProperty ;
+          rdfs:label "category"@en; 
+          rdfs:domain :Smartphone;
+          rdfs:range :Electrinics . 
+#  --------------------------- Property 25------------------------- 
+:description rdf:type owl:ObjectProperty ;
+             rdfs:label "description"@en; 
+             rdfs:domain :Smartphone;
+             rdfs:range :Latest_smartphone_with_advance_ . 
+#  --------------------------- Property 26------------------------- 
+:type rdf:type owl:ObjectProperty ;
+      rdfs:label "user1"@en; 
+      rdfs:domain :Clothes;
+      rdfs:range :Women . 
+#  --------------------------- Property 27------------------------- 
+:user2 rdf:type owl:ObjectProperty ;
+       rdfs:label "user2"@en; 
+       rdfs:domain :Clothes;
+       rdfs:range :Kids . 
+#  --------------------------- Property 28------------------------- 
+:type rdf:type owl:ObjectProperty ;
+      rdfs:label "type"@en; 
+      rdfs:domain :Clothes;
+      rdfs:range :style . 
+#  --------------------------- Property 29------------------------- 
+:user3 rdf:type owl:ObjectProperty ;
+       rdfs:label "user3"@en; 
+       rdfs:domain :Clothes;
+       rdfs:range :Men . 
+#  --------------------------- Property 30------------------------- 
+:material rdf:type owl:ObjectProperty ;
+          rdfs:label "material"@en; 
+          rdfs:domain :shoes;
+          rdfs:range :material . 
+#  --------------------------- Property 31------------------------- 
+:hasreview rdf:type owl:ObjectProperty ;
+           rdfs:label "hasreview"@en; 
+           rdfs:domain :Product;
+           rdfs:range :Review . 
+#  --------------------------- Property 32------------------------- 
+:of rdf:type owl:ObjectProperty ;
+    rdfs:label "of"@en; 
+    rdfs:domain :Rating;
+    rdfs:range :Product . 
+#  --------------------------- Property 33------------------------- 
+:given rdf:type owl:ObjectProperty ;
+       rdfs:label "given"@en; 
+       rdfs:domain :Review;
+       rdfs:range :Rating . 
+#  --------------------------- Property 34------------------------- 
+:given_review rdf:type owl:DatatypeProperty ;
+              rdfs:label "given review"@en; 
+              rdfs:domain :Review;
+              rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 35------------------------- 
+:Product_Id rdf:type owl:ObjectProperty ;
+            rdfs:label "Product Id"@en . 
+#  --------------------------- Property 36------------------------- 
+:Product_Name rdf:type owl:ObjectProperty ;
+              rdfs:label "Product Name"@en . 
+#  --------------------------- Property 37------------------------- 
+:user_email rdf:type owl:ObjectProperty ;
+            rdfs:label "user email"@en . 
+#  --------------------------- Property 38------------------------- 
+:Review rdf:type owl:ObjectProperty ;
+        rdfs:label "Review"@en . 
+#  --------------------------- Property 39------------------------- 
+:brand rdf:type owl:ObjectProperty ;
+       rdfs:label "brand"@en . 
+#  --------------------------- Property 40------------------------- 
+:category rdf:type owl:ObjectProperty ;
+          rdfs:label "category"@en . 
+#  --------------------------- Property 41------------------------- 
+:has rdf:type owl:ObjectProperty ;
+     rdfs:label "has"@en; 
+     rdfs:domain :Product . 
+###  Class Definitions (Number of Classes) 19 ###
+#  --------------------------- Class  0------------------------- 
+:Product rdf:type owl:Class; 
+         rdfs:label "Product"@en . 
+#  --------------------------- Class  1------------------------- 
+:Clothes rdf:type owl:Class; 
+         rdfs:label "Clothes"@en . 
+#  --------------------------- Class  2------------------------- 
+:Smartphone rdf:type owl:Class; 
+            rdfs:label "Smartphone"@en . 
+#  --------------------------- Class  3------------------------- 
+:Customer rdf:type owl:Class; 
+          rdfs:label "Customer"@en . 
+#  --------------------------- Class  4------------------------- 
+:shoes rdf:type owl:Class; 
+       rdfs:label "shoes"@en . 
+#  --------------------------- Class  5------------------------- 
+:XYZ rdf:type owl:Class; 
+     rdfs:label "XYZ"@en . 
+#  --------------------------- Class  6------------------------- 
+:Electrinics rdf:type owl:Class; 
+             rdfs:label "electronics"@en . 
+#  --------------------------- Class  7------------------------- 
+:Latest_smartphone_with_advance_ rdf:type owl:Class; 
+                                 rdfs:label "Latest smartphone with advance "@en . 
+#  --------------------------- Class  8------------------------- 
+:Women rdf:type owl:Class; 
+       rdfs:label "Women"@en . 
+#  --------------------------- Class  9------------------------- 
+:Men rdf:type owl:Class; 
+     rdfs:label "Men"@en . 
+#  --------------------------- Class  10------------------------- 
+:Kids rdf:type owl:Class; 
+      rdfs:label "Kids"@en . 
+#  --------------------------- Class  11------------------------- 
+:style rdf:type owl:Class; 
+       rdfs:label "style"@en . 
+#  --------------------------- Class  12------------------------- 
+:Watches rdf:type owl:Class; 
+         rdfs:label "Watches"@en . 
+#  --------------------------- Class  13------------------------- 
+:Analog,digital rdf:type owl:Class; 
+                rdfs:label "Analog,digital"@en . 
+#  --------------------------- Class  14------------------------- 
+:material rdf:type owl:Class; 
+          rdfs:label "xyz"@en . 
+#  --------------------------- Class  15------------------------- 
+:color rdf:type owl:Class; 
+       rdfs:label "white,black"@en . 
+#  --------------------------- Class  16------------------------- 
+:Class41 rdf:type owl:Class; 
+         rdfs:label "material"@en . 
+#  --------------------------- Class  17------------------------- 
+:Rating rdf:type owl:Class; 
+        rdfs:label "Rating"@en . 
+#  --------------------------- Class  18------------------------- 
+:Review rdf:type owl:Class; 
+        rdfs:label "Review"@en . 

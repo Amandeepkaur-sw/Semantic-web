@@ -1,0 +1,47 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 20px;
+    background: linear-gradient(135deg, #5168dc 0%, #66d536 100%);
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end; /* Align links to the right */
+    margin-bottom: 20px;
+}
+
+.nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: white; /* Attractive link color */
+    font-weight: 500;
+    padding: 5px 10px; /* Add some padding for a button-like feel */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #4CAF50; /* Background color for links */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.nav a:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.about-content {
+    max-width: 900px; /* Increased max width for a larger box */
+    margin: 50px auto; /* Centered with margin on top */
+    padding: 30px; /* Increased padding for a more spacious feel */
+    background-color: #e0f7fa; /* Light cyan background color for the content box */
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2); /* Slightly larger shadow for depth */
+    text-align: center; /* Center-align text in the content */
+}
+
+.about-content h1 {
+    color: #00695c; /* Dark teal color for heading */
+    font-weight: 700;
+}
+
+.about-content p {
+    margin-bottom: 20px; /* Increased spacing between paragraphs */
+    color: #333; /* Text color */
+}
+
