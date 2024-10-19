@@ -1,0 +1,10 @@
+@prefix ex: <http://example.org/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+ex:book1 dc:title "SPARQL Basics" ;
+         dc:creator "Alice" ;
+         dc:date "2022-01-01" .
+
+ex:book2 dc:title "Advanced SPARQL" ;
+         dc:creator "Bob" ;
+         dc:date "2023-01-01" .

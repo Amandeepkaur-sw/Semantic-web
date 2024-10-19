@@ -1,0 +1,4 @@
+@prefix ex: <http://example.org/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+ex:book1 dc:title "SPARQL Basics" .

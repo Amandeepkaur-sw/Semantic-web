@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styless.css') }}">
+</head>
+<body>
+    <div class="nav">
+        <a href="/home">Home</a>
+        
+    </div>
+    <div class="about-content">
+        <h1>About Us</h1>
+        <p><b>1. Introduction to RDF</b>
+            <h4>What is RDF? </h4>
+            RDF (Resource Description Framework) is a framework for representing information about resources in the web. It uses a simple triple-based structure, consisting of subject-predicate-object statements.
+            RDF Syntax and Structure RDF can be serialized in various formats, including:
+            (1)RDF/XML
+            (2)Turtle
+            (3)N-Triples
+            (4)JSON-LD
+            RDF Vocabulary (RDFS, OWL) RDFS (RDF Schema) and OWL (Web Ontology Language) are vocabularies for defining classes, properties, and relationships in RDF.
+        <p><b>Understanding SPARQL</b>
+            <h4>What is SPARQL?</h4> SPARQL (SPARQL Protocol and RDF Query Language) is a query language and protocol used to query RDF data. It allows for the retrieval and manipulation of data stored in RDF format.
+            SPARQL Syntax and Structure A typical SPARQL query consists of a SELECT clause, WHERE clause, and optional ORDER BY and LIMIT clauses.
+            SPARQL Query Types<br>
+            SELECT: Retrieves specific variables.
+            CONSTRUCT: Creates new RDF graphs.
+            DESCRIBE: Returns an RDF graph with information about resources.
+            ASK: Returns a boolean indicating whether a query pattern matches.</p>
+        <h3>Our PDF Document</h3>
+        <p>You can download our PDF document here:</p>
+        <a href="{{ url_for('static', filename='rdf_sparql.pdf') }}" target="_blank">Download PDF</a>
+    </div>
+</body>
+</html>
